@@ -4,7 +4,12 @@ main {
     display: flex;
     gap: 32px;
     padding: 32px;
+    scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}  
 
 footer {
     text-align: center;
@@ -12,6 +17,17 @@ footer {
 
 .main-header {
     text-align: center;
+    background-color: #6a6a6a;
+    color: #f8f8f8;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    width: 50%;
 }
 
 input[type=number] {
@@ -22,7 +38,7 @@ input[type=number] {
 }
 
 form {
-    background-color: antiquewhite;
+    background-color:#bdbdbd;
     padding: 32px;
 }
 
@@ -47,9 +63,9 @@ button {
 }
 
 .result-section {
-    padding: 16px;
+    padding: 32px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #bdbdbd;
 }
 
 #result-bmi {

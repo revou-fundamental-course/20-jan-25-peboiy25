@@ -1,4 +1,8 @@
 /* Ini File CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 main {
     display: flex;
@@ -13,22 +17,31 @@ body::-webkit-scrollbar {
 
 footer {
     text-align: center;
+    width: 100%;
+    margin-top: 22px;
+    padding: 0.3rem;
+    background: #111111;
+    color: #f8f8f8;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
 }
 
 .main-header {
     text-align: center;
-    background-color: #6a6a6a;
+    background-color: #111111;
     color: #f8f8f8;
     width: 100%;
-}
-
-ul {
-    list-style-type: none;
+    height: 50px;
+    margin-bottom: 12px;
+    padding: 0.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 section {
     width: 50%;
 }
+
 
 input[type=number] {
     width: 100%;
@@ -40,6 +53,11 @@ input[type=number] {
 form {
     background-color:#bdbdbd;
     padding: 32px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .form-group {
@@ -55,17 +73,32 @@ button {
 }
 
 .bg-black {
-    background-color: black;
+    background-color: #6a6a6a;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .bg-cadet-blue {
-    background-color: cadetblue;
+    background-color: #6a6a6a;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .result-section {
     padding: 32px;
     text-align: center;
     background-color: #bdbdbd;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 #result-bmi {

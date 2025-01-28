@@ -73,21 +73,31 @@ button {
 }
 
 .bg-black {
-    background-color: #6a6a6a;
+    background-color: #333333;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.bg-black:hover {
+    background-color: #555555;
 }
 
 .bg-cadet-blue {
-    background-color: #6a6a6a;
+    background-color: #333333;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.bg-cadet-blue:hover {
+    background-color: #555555;
 }
 
 .result-section {
